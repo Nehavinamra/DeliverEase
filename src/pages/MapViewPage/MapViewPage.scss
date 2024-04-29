@@ -1,0 +1,109 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F3F4F6; /* Soft background */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Full Container */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #34495E; /* Dark header for contrast */
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ecf0f1;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #16a085;
+  border-radius: 4px;
+}
+
+/* Map container */
+.map-container {
+  flex: 1; /* Take available space */
+  padding: 20px;
+  overflow: hidden; /* Prevent scroll on the map */
+}
+
+.leaflet-container {
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: #34495E;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+button {
+  background-color: #2980B9; /* Calm blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: #3498DB;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Linear Progress */
+.LinearProgress-root {
+  height: 20px; /* Thicker bar for better visibility */
+  border-radius: 10px;
+  background-color: #bdc3c7;
+}
+
+.LinearProgress-barColorPrimary {
+  background-color: #3498DB;
+}
+
+.LinearProgress-dashedColorPrimary {
+  box-shadow: 0 0 10px #3498DB;
+}
+
+/* Add any additional styles you need below */
