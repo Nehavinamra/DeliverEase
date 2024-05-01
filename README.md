@@ -42,3 +42,5 @@ Deployment:
 
 Frontend Deployed on Vercel: https://deliverease.vercel.app/
 Backend Deployed on Render: https://delivery-it-server.onrender.com/
+
+Still have to work on the search employee feature
