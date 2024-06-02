@@ -270,20 +270,3 @@ function LandingPage() {
 }
 export default LandingPage;
 
-/* <div className="d-flex flex-row justify-content-evenly">
-              {userDetails.role === "Delivery Manager" ? (
-                <div className="w-25">
-                  {" "}
-                  <Form.Label>Your Price Limit: $ {range}</Form.Label>
-                  <Form.Range
-                    value={range}
-                    min={0}
-                    max={200}
-                    onChange={(e) => setRange(e.currentTarget.value)} //this is only for delivery manager
-                  />
-                </div>
-              ) : (
-                <></>
-              )}
-              //{" "}
-            </div> */
